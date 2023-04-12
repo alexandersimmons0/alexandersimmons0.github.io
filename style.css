@@ -7,6 +7,11 @@
 
 }
 
+body{
+  font-family: 'crimson_textregular';
+  color: 'red';
+}
+
 h1{
   font-family: 'crimson_textregular;';
   font-size: 300%;
