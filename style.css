@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'crimson_textregular';
+    src: url('crimsontext-regular-webfont.woff2') format('woff2'),
+         url('crimsontext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 h1{
   font-size: 300%;
 }
