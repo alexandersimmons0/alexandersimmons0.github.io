@@ -11,6 +11,10 @@ body{
   font-family: 'crimson_textregular';
   background-color: '#000000';
 }
+img{
+  width=50%;
+  height=50%;
+}
 
 h1{
   font-family: 'crimson_textregular;';
