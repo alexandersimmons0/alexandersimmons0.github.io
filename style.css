@@ -7,9 +7,15 @@
 
 }
 
+html{
+  background-color: #000000;
+}
 body{
   font-family: 'crimson_textregular';
-  background-color: '#000000';
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  background-color: #ffffff;
 }
 img{
   width=50%;
