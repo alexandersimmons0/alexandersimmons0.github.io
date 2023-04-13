@@ -21,4 +21,6 @@ body{
 h1{
   font-family: 'crimson_textregular;';
   font-size: 300%;
+  margin: 0;
+  padding: 20px 0;
 }
