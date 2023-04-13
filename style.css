@@ -13,13 +13,13 @@ html{
 body{
   font-family: 'crimson_textregular';
   width: 600px;
-  margin: 0 auto;
+  margin: 3 auto;
   padding: 0 20px 20px 20px;
   background-color: #ffffff;
 }
 img{
-  width: 50%;
-  height: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 h1{
