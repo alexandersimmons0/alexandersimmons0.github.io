@@ -3,17 +3,31 @@
 <head>
   <link rel="stylesheet" type="text/css" href="https://alexandersimmons0.github.io/style.css">
 </head>
+<style>
+ .item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu main main main main'
+    'menu menu main main main main';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+</style>
 <body>
 <h1>SIM150 Final WebPage</h1>
-<p1>Welcome! I have the four games I have made this semester.
-  
-</p1>
-<h2>HeroBorn</h2>
-    <img src="heroBornWebImage.png" alt="GamePlayImage" style="width:50%;height:50%;">
-<p2>
+<p1>Welcome! I have the four games I have made this semester.</p1>
+<div class="grid-container">
+  <div class="item1">Heroborn</div>
+  <div class="item2"><img src="heroBornWebImage.png" alt="HeroBornGamePlay" style="width:25%;height:50%"></div>
+<div class="item3">
   <a href = "https://alexandersimmons0.github.io/HeroBorn/" target = "_self">HeroBorn</a> was a tutorial game that we followed in this class.
   It includes basic movement, enemies, collection, and sound.
-</p2>
+  </div>
 <h3>Cubethon</h3>
   <img src="cubethonImage.png" alt="GamePlayImage1" style="width:50%;height:50%;">
 <p3>
